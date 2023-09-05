@@ -1,0 +1,22 @@
+.contenido .section-menu {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    transition: .5s ease;
+    margin: 25px 0;
+}
+.contenido .section-menu .header-menu *{
+    text-align: center;
+    border: 1px solid #ccc;
+    height: 35px;
+}
+
+.contenido .section-menu .body-menu{
+    height: auto;
+    opacity: 1;
+}
+
+.contenido .section-menu .body-menu.show{
+    height: auto;
+    opacity: 1;
+}
